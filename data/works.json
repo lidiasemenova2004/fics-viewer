@@ -33,6 +33,19 @@
           "file": "content/my-fic/en/01.md"
         }
       ]
+    },
+    {
+      "slug": "last-hour",
+      "title": "last-hour",
+      "language": "ru",
+      "summary": "",
+      "chapters": [
+        {
+          "slug": "01",
+          "title": "Последний час",
+          "file": "content/last-hour/ru/01.md"
+        }
+      ]
     }
   ]
 }
