@@ -1,0 +1,64 @@
+{
+  "site": {
+    "title": "My Fics",
+    "tagline": "Writing on weekends"
+  },
+  "nav": {
+    "works": "Works",
+    "upload": "Upload",
+    "about": "About"
+  },
+  "filter": {
+    "all": "All",
+    "ru": "Russian",
+    "en": "English"
+  },
+  "work": {
+    "chapters": "Chapters",
+    "downloadAll": "Download whole work",
+    "alsoIn": "Also available in",
+    "updated": "Updated",
+    "read": "Read"
+  },
+  "chaptersCount": {
+    "one": "{n} chapter",
+    "other": "{n} chapters"
+  },
+  "reader": {
+    "prev": "← Previous",
+    "next": "Next →",
+    "back": "← Back to work",
+    "downloadChapter": "Download chapter"
+  },
+  "formats": {
+    "txt": "TXT",
+    "epub": "EPUB",
+    "fb2": "FB2",
+    "html": "HTML",
+    "pdf": "PDF"
+  },
+  "lang": {
+    "ru": "Russian",
+    "en": "English"
+  },
+  "upload": {
+    "title": "Upload a chapter",
+    "chooseFile": "Choose a .docx file",
+    "workSlug": "Work slug",
+    "chapterSlug": "Chapter slug",
+    "chapterTitle": "Chapter title",
+    "language": "Language",
+    "convert": "Convert to Markdown",
+    "preview": "Markdown preview",
+    "github": "Publish to GitHub",
+    "owner": "Repository owner",
+    "repo": "Repository",
+    "token": "Personal Access Token",
+    "tokenPlaceholder": "ghp_...",
+    "publish": "Publish",
+    "success": "Chapter published successfully!",
+    "error": "Publish failed",
+    "converting": "Converting...",
+    "publishing": "Publishing..."
+  }
+}

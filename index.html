@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Фанфики</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a href="index.html" class="site-title" data-i18n="site.title"></a>
+    <nav class="header-nav">
+      <a href="upload.html" data-i18n="nav.upload"></a>
+      <div class="lang-switch">
+        <button data-lang="ru">RU</button>
+        <button data-lang="en">EN</button>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="filters" id="filters">
+      <button data-filter="all" class="active" data-i18n="filter.all"></button>
+      <button data-filter="ru" data-i18n="filter.ru"></button>
+      <button data-filter="en" data-i18n="filter.en"></button>
+    </section>
+    <section id="works" class="works-grid"></section>
+  </main>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

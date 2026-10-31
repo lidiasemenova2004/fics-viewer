@@ -1,0 +1,38 @@
+{
+  "works": [
+    {
+      "slug": "my-fic-ru",
+      "title": "Название фанфика",
+      "author": "Твой ник",
+      "language": "ru",
+      "translationGroup": "my-fic",
+      "summary": "Короткое описание работы",
+      "cover": "assets/covers/my-fic.jpg",
+      "updated": "2026-10-30",
+      "chapters": [
+        {
+          "slug": "01",
+          "title": "Глава 1",
+          "file": "content/my-fic/ru/01.md"
+        }
+      ]
+    },
+    {
+      "slug": "my-fic-en",
+      "title": "Fic Title",
+      "author": "Your nick",
+      "language": "en",
+      "translationGroup": "my-fic",
+      "summary": "Short summary",
+      "cover": "assets/covers/my-fic.jpg",
+      "updated": "2026-10-30",
+      "chapters": [
+        {
+          "slug": "01",
+          "title": "Chapter 1",
+          "file": "content/my-fic/en/01.md"
+        }
+      ]
+    }
+  ]
+}

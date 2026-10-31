@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Загрузка</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a href="index.html" class="site-title" data-i18n="site.title"></a>
+    <nav class="header-nav">
+      <div class="lang-switch">
+        <button data-lang="ru">RU</button>
+        <button data-lang="en">EN</button>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1 data-i18n="upload.title"></h1>
+
+    <section class="upload-box">
+      <label for="docx-file" data-i18n="upload.chooseFile"></label>
+      <input type="file" id="docx-file" accept=".docx">
+
+      <div class="form-grid">
+        <label>
+          <span data-i18n="upload.workSlug"></span>
+          <input type="text" id="work-slug" placeholder="my-fic">
+        </label>
+        <label>
+          <span data-i18n="upload.chapterSlug"></span>
+          <input type="text" id="chapter-slug" placeholder="01">
+        </label>
+        <label>
+          <span data-i18n="upload.chapterTitle"></span>
+          <input type="text" id="chapter-title-input">
+        </label>
+        <label>
+          <span data-i18n="upload.language"></span>
+          <select id="lang-select">
+            <option value="ru">Русский</option>
+            <option value="en">English</option>
+          </select>
+        </label>
+      </div>
+
+      <button id="convert-btn" data-i18n="upload.convert"></button>
+    </section>
+
+    <section id="preview-section" hidden>
+      <h2 data-i18n="upload.preview"></h2>
+      <pre id="markdown-preview"></pre>
+
+      <h2 data-i18n="upload.github"></h2>
+      <div class="form-grid">
+        <label>
+          <span data-i18n="upload.owner"></span>
+          <input type="text" id="gh-owner" placeholder="username">
+        </label>
+        <label>
+          <span data-i18n="upload.repo"></span>
+          <input type="text" id="gh-repo" placeholder="repo-name">
+        </label>
+        <label>
+          <span data-i18n="upload.token"></span>
+          <input type="password" id="gh-token" data-i18n-placeholder="upload.tokenPlaceholder">
+        </label>
+      </div>
+      <button id="publish-btn" data-i18n="upload.publish"></button>
+      <p id="upload-status"></p>
+    </section>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/mammoth@1.6.0/mammoth.browser.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/turndown@7.1.2/dist/turndown.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/turndown-plugin-gfm@1.0.2/dist/turndown-plugin-gfm.js"></script>
+  <script type="module" src="js/upload.js"></script>
+</body>
+</html>

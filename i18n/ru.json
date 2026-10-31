@@ -1,0 +1,66 @@
+{
+  "site": {
+    "title": "Мои фанфики",
+    "tagline": "Пишу по выходным"
+  },
+  "nav": {
+    "works": "Работы",
+    "upload": "Загрузить",
+    "about": "Обо мне"
+  },
+  "filter": {
+    "all": "Все",
+    "ru": "Русский",
+    "en": "English"
+  },
+  "work": {
+    "chapters": "Главы",
+    "downloadAll": "Скачать всю работу",
+    "alsoIn": "Также на",
+    "updated": "Обновлено",
+    "read": "Читать"
+  },
+  "chaptersCount": {
+    "one": "{n} глава",
+    "few": "{n} главы",
+    "many": "{n} глав",
+    "other": "{n} главы"
+  },
+  "reader": {
+    "prev": "← Предыдущая",
+    "next": "Следующая →",
+    "back": "← К работе",
+    "downloadChapter": "Скачать главу"
+  },
+  "formats": {
+    "txt": "TXT",
+    "epub": "EPUB",
+    "fb2": "FB2",
+    "html": "HTML",
+    "pdf": "PDF"
+  },
+  "lang": {
+    "ru": "Русский",
+    "en": "English"
+  },
+  "upload": {
+    "title": "Загрузить главу",
+    "chooseFile": "Выберите файл .docx",
+    "workSlug": "Слаг работы",
+    "chapterSlug": "Слаг главы",
+    "chapterTitle": "Заголовок главы",
+    "language": "Язык",
+    "convert": "Конвертировать в Markdown",
+    "preview": "Предпросмотр Markdown",
+    "github": "Публикация на GitHub",
+    "owner": "Владелец репозитория",
+    "repo": "Репозиторий",
+    "token": "Personal Access Token",
+    "tokenPlaceholder": "ghp_...",
+    "publish": "Опубликовать",
+    "success": "Глава успешно опубликована!",
+    "error": "Ошибка публикации",
+    "converting": "Конвертация...",
+    "publishing": "Публикация..."
+  }
+}
